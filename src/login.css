@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+#output{
+  color: black;
+}
+#nameInput{
+  color: red;
+}
+
+#btn{
+  color: red;
+  background-color: black;
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+
+}
+#btn:hover{
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+input{
+  border-radius: 50px;
+}
+input:hover{
+  transform: scale(1.05);
+}
+.head{
+  text-transform: capitalize;
+  
+}
+.n{
+  display: inline-block;
+  margin-right:20px ;
+}
+ 
+div{
+  border: 2px solid black;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color:azure;
+}
+div:hover{
+  transform: scale(1.01);
+  
+  
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
